@@ -1,4 +1,3 @@
-
 package tests;
 import org.junit.Assert;
 import org.junit.Test;
@@ -33,14 +32,3 @@ public class Day10_ScreenshotsOfEntirePage extends TestBase {
         takeScreenshotOfPage();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
