@@ -15,20 +15,30 @@ public class Day13_JSExecutor extends TestBase {
         waitFor(3);
 //        scrolling We Offer element
         js.executeScript("arguments[0].scrollIntoView(true);",driver.findElement(By.xpath("//*[.='we offer']")));
+        waitFor(3);
         takeScreenshotOfPage();
         waitFor(3);
 //        scrolling LMS LOGIN element
         js.executeScript("arguments[0].scrollIntoView(true);",driver.findElement(By.xpath("//span[.=' Enroll Free ']")));
+        waitFor(3);
         takeScreenshotOfPage();
-
         waitFor(3);
 //        scrolling WHY US element
         scrollIntoViewJS(driver.findElement(By.xpath("//h3[.='WHY US?']")));
+        waitFor(3);
         takeScreenshotOfPage();
         waitFor(3);
 //        scrolling back up to enroll free
         scrollIntoViewJS(driver.findElement(By.xpath("//span[.=' Enroll Free ']")));
+        waitFor(3);
+        takeScreenshotOfPage();
+//        scroll all the way down
+        scrollAllDownByJS();
+        waitFor(3);
+        takeScreenshotOfPage();
+//        scroll all the way up
+        scrollAllUpByJS();
+        waitFor(3);
         takeScreenshotOfPage();
     }
 }
-
