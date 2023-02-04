@@ -1,0 +1,8 @@
+2023-01-21 07:47:50,324 INFO t.Day12_WebTables [main] Going to the home page
+2023-01-21 07:47:52,620 INFO t.Day12_WebTables [main] Printing the webtable information
+2023-01-21 07:47:52,676 INFO t.Day12_WebTables [main] Smith
+2023-01-21 07:47:52,690 INFO t.Day12_WebTables [main] John
+2023-01-21 07:47:52,705 INFO t.Day12_WebTables [main] jsmith@gmail.com
+2023-01-21 07:47:52,719 INFO t.Day12_WebTables [main] $50.00
+2023-01-21 07:47:52,734 INFO t.Day12_WebTables [main] http://www.jsmith.com
+2023-01-21 07:47:52,748 INFO t.Day12_WebTables [main] edit delete
